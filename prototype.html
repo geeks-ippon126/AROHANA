@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WW2 Planes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and background styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Plane gallery section */
+.plane-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+/* Individual plane styling */
+.plane {
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    width: 30%;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plane:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.plane img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.plane h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.plane p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+/* Footer styling */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+</style>
+<body>
+    <header>
+        <h1>World War II Planes</h1>
+        <p>Explore the iconic aircraft of World War II</p>
+    </header>
+
+    <section class="plane-gallery">
+        <div class="plane">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/P-51D_Mustang_in_flight.jpg/800px-P-51D_Mustang_in_flight.jpg" alt="P-51 Mustang">
+            <h2>P-51 Mustang</h2>
+            <p>The P-51 Mustang was a long-range fighter aircraft used by the Allies. It was known for its speed and agility.</p>
+        </div>
+        
+        <div class="plane">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/B-17_Flying_Fortress.jpg/800px-B-17_Flying_Fortress.jpg" alt="B-17 Flying Fortress">
+            <h2>B-17 Flying Fortress</h2>
+            <p>The B-17 was a heavy bomber known for its durability. It played a significant role in strategic bombing campaigns over Europe.</p>
+        </div>
+
+        <div class="plane">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Me_262_with_background.jpg/800px-Me_262_with_background.jpg" alt="Me 262">
+            <h2>Me 262</h2>
+            <p>The Me 262 was the first operational jet fighter in the world, developed by Nazi Germany during the war.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 WW2 Planes | Created for learning purposes</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,194 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+.banner{
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url( https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907.jpg.landing-big_2x.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.navbar{
+   width: 85%;
+   margin: auto;
+   padding: 35px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+  
+.logo{
+   width: 100px;
+   cursor: pointer;
+}
+.navbar ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 0 20px;
+   position:relative;
+}
+.navbar ul li a{
+   text-decoration:none;
+   color:  white;
+   text-transform: uppercase;
+   display: block;
+}
+.navbar ul li::after{
+   content: '';
+   height: 4px;
+   width:  0%;
+   background: #c6c0ff;
+   position:absolute;
+   left: 0;
+   bottom: 0 px;
+   transition: 0.5s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+  text-decoration:#04f0d8 underline;
+}
+.content{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50);
+  text-align: center;
+  color: rgb(0, 221, 250);
+
+}
+.content h1{
+  font-size :60px;
+  font-family:Arial, Helvetica, sans-serif ;
+  margin: 10px;
+  font-weight: 900;
+  color :antiquewhite;
+}
+.content h3{
+   font-size :25px;
+   font-family:Arial, Helvetica, sans-serif ;
+   margin: 10px;
+   font-weight: 900;
+   color :antiquewhite;
+ }
+ 
+button {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  font-weight: 800;
+  font-size: larger;
+  margin: 20px 15px;
+  border-radius: 25px ;
+  font-weight: bold;
+  border: 2px solid #cc00ff;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+ span{
+  background: #821caa;
+  height: 100%;
+  width:  0%;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: -10;
+  z-index: -1;
+  transition: 0.5s;
+ }
+ button:hover span{
+  width: 100%;
+ }
+ button:hover span{
+  border: none;
+ }
+
+
+body{
+  background-color:rgba(13, 7, 20, 0.95);
+}
+.navbar2{
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items:left;
+  justify-content: space-between;
+  font-size: medium;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif  ;
+  text-align: left;
+}
+ 
+ 
+.banner2{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREqvI_1JGR_aoMwz10X6hBhbvb9ZwtR23knA&usqp=CAU );
+  background-size: cover;
+  background-position: center;
+}
+.navbar2 ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position:relative;
+}
+.navbar2 ul li a{
+  text-decoration: #9204f0 underline;
+  color:  white;
+  text-transform: uppercase;
+}
+.navbar2 ul li::after{
+  content: '';
+  height: 3px;
+  width:  0%;
+  background: #6002f8;
+  position:absolute;
+  left: 0;
+  bottom: 0 px;
+  transition: 0.5s;
+}
+.navbar2 ul li:hover::after{
+ width: 100%;
+}
+input{
+border-radius:100px;
+padding: 15px 0px;
+margin:0px;
+font-weight: bold;
+border: 2px solid #653cd4;
+background: transparent ;
+color: white ;
+text-align:center;
+text-transform: uppercase;
+}
+.icon{
+   width: 40px;
+   margin-right: 0px;
+   margin-left: 0px;
+   padding: 0;
+}
+.footer{
+  font-size :20px;
+  font-family:Arial, Helvetica, sans-serif ;
+  margin: 10px;
+  font-weight: 100;
+  color :antiquewhite;
+}
+.footer li a{
+  color: bisque;
+  display:inline-block;  
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer ul li a{
+  text-decoration: none;
+  margin-right: 45px;
+  display: block;
+}
